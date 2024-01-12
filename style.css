@@ -50,7 +50,8 @@ h1 {
   width: 80%;
   margin: 50px auto 15px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  justify-content: center;
   grid-gap: 40px;
 }
 
