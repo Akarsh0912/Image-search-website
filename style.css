@@ -32,6 +32,7 @@ h1 {
   border-radius: 10%;
   background-color: #e52b50;
   color: white;
+  cursor: pointer;
 }
 
 #show-more-btn {
@@ -44,6 +45,8 @@ h1 {
   font-size: medium;
   background-color: #e52b50;
   color: white;
+  cursor: pointer;
+  display: none;
 }
 
 .show-image {
@@ -61,4 +64,7 @@ h1 {
   object-fit: cover;
   border-radius: 5px;
   border: 1px solid rgba(73, 71, 71, 0.318);
+}
+::placeholder {
+  font-size: medium;
 }

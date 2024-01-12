@@ -8,7 +8,7 @@ const accessKey= "nQPZRdHp-1Wl4hm4Xf0rumh5Uek5B1C-J9x1oW9vxpU";
 let keyword;
 let page=1;
 
-showMoreBtn.disabled=true;
+
 async function searchImage(){
     keyword = searchBox.value;
     const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}&per_page=12`;
@@ -37,7 +37,7 @@ async function searchImage(){
         
         
     });
-    showMoreBtn.disabled=false;
+    showMoreBtn.style.display ="block"
 
 }
 
